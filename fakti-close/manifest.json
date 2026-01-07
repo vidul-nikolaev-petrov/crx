@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Fakti.bg Close Popup",
+  "version": "1.0",
+  "description": "Automatically closes the ads popup on fakti.bg",
+  "permissions": ["tabs", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://fakti.bg/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
