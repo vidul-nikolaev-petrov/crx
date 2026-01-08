@@ -13,11 +13,10 @@ const observer = new MutationObserver((mutations, obs) => {
         wrapper.style.justifyContent = "center"; // horizontal centering
         wrapper.style.alignItems = "center"; // vertical centering
         wrapper.style.height = logoImg.height + "px"; // match original height
-        wrapper.style.width = logoImg.width + 100 + "px"; // add some extra width for text
-        wrapper.style.marginLeft = "-32px";
+        wrapper.style.width = logoImg.width + "px"; // add some extra width for text
 
         const textNode = document.createElement("span");
-        textNode.textContent = "Алчни Джурналясти";
+        textNode.textContent = "ТЪПОТИИ";
         textNode.style.fontSize = "20px";
         textNode.style.fontWeight = "bold";
         textNode.style.color = "#fff";
